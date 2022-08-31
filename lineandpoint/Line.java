@@ -38,7 +38,7 @@ public class Line{
         negslope = negslope * -1;
         
         double anewx = a.x - d.x;
-        double anewy = a.y = d.y;
+        double anewy = a.y - d.y;
         
         double bnewx = b.x - d.x;
         double bnewy = b.y - d.y;
