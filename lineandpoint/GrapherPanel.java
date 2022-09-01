@@ -52,7 +52,7 @@ public class GrapherPanel extends JPanel{
      * @param p The Point object to paint.
      */
     private void paintPoint(Point p) {
-        g.setColor(Color.BLUE);
+        g.setColor(Color.GREEN);
         g.fillOval(250 + (int)(p.getX()*25) - 5, 250 - (int)(p.getY()*25) - 5, 10, 10);
     }
     /**
